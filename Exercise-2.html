@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <table>
+                <tr>
+                    <th>Control Type</th>
+                    <th>Data</th>
+                    <th>Control</th>
+                </tr>
+                <tr>
+                    <td>Text box</td>
+                    <td>Name:</td>
+                    <td> <input type="text" name="Name" placeholder="Enter name"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Text area</td>
+                    <td>Address:</td>
+                    <td><textarea name="address" cols="20" rows="5" placeholder="Enter adress"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Drop down list</td>
+                    <td>Area:</td>
+                    <td>
+                        <select name="Area">
+                            <option value="Center">Center</option>
+                            <option value="Right">Right</option>
+                            <option value="Left">Left</option>
+                        </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Check box</td>
+                    <td>Hobbies:</td>
+                    <td>
+                        <input type="checkbox" name="hobbies">Sport<br/>
+                        <input type="checkbox" name="hobbies">Reading<br/>
+                        <input type="checkbox" name="hobbies">TV<br/>
+                        <input type="checkbox" name="hobbies">Internet<br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Radio Buttons</td>
+                    <td>Gender</td>
+                    <td>
+                        <fieldset>
+                            <legend>Gender selection</legend>
+                            <input type="radio" name="gender">Male<br/>
+                            <input type="radio" name="gender">Female<br/>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>File upload</td>
+                    <td>Your image:</td>
+                    <td>
+                        <button>Choose File</button>
+                        No file chosen
+                    </td>
+                </tr>
+                <tr>
+                    <td>Buttons</td>
+                    <td>Actions</td>
+                    <td>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                        <button type="button">Button</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
